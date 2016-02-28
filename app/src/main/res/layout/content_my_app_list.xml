@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.adamant.myappportfolio.MyAppList"
+    tools:showIn="@layout/activity_my_app_list"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background"
+    >
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/button_spotify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="spotify streamer"
+            />
+        <Button
+
+            android:id="@+id/button_scoresapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="scores app"
+            />
+        <Button
+
+            android:id="@+id/button_library"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="library app"
+            />
+        <Button
+
+            android:id="@+id/button_buildbigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="build it bigger"
+            />
+        <Button
+
+            android:id="@+id/button_xyzreader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="xyz reader"
+            />
+        <Button
+
+            android:id="@+id/button_myapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="capstone: my own app"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>
